@@ -30,17 +30,27 @@
         <title>Hello World</title>
     </head>
     <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">goodbye world</p>
-                <p class="event received">two powerfull boi's have fkd it fr all of us</p>
-            </div>
-        </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
+	<div id="not_something"></div> 
+	<div id="work"></div>
+	<div id="head_cover"></div>
+	<div id="pro"></div>
+		<script>
 
-        </script>
+		var cereal={
+		
+		"jesus":[
+			{"name": "coco pops" , "fat": "2.5" , "protein": "5" , " fibre": "2" , "calories": "387"}, 
+			{"name": "rice krispies" , "fat": "0.3" , "protein": "1.8" , " fibre": "0.3" , "calories": "115"}, 
+			{"name": "special k" , "fat": "0.5" , "protein": "4.2" , " fibre": "0.8" , "calories": "114"}, 
+			{"name": "air" , "fat": "0" , "protein": "0" , " fibre": "0" , "calories": "0"}			
+		]
+		
+		};
+		var cerealString = JSON.stringify(cereal);
+
+		window.localStorage.setItem("jesus",cerealString)
+		
+		
+		</script>
     </body>
 </html>
